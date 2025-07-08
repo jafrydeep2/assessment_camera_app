@@ -11,7 +11,7 @@
 
 1. Clone the repository and navigate to the project directory:
 ```bash
-cd camera-app
+cd assessment_camera_app
 ```
 
 2. Install dependencies:
