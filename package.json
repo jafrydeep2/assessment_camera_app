@@ -1,7 +1,7 @@
 {
   "name": "camera-app",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,32 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@tamagui/animations-react-native": "^1.130.8",
+    "@tamagui/config": "^1.130.8",
+    "@tamagui/core": "^1.130.8",
+    "@tamagui/font-inter": "^1.130.8",
+    "@tamagui/shorthands": "^1.130.8",
+    "@tamagui/theme-base": "^1.130.8",
     "expo": "~53.0.17",
+    "expo-camera": "^16.1.10",
+    "expo-file-system": "^18.1.11",
+    "expo-media-library": "^17.1.7",
+    "expo-router": "^5.1.3",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-web": "^0.20.0",
+    "tamagui": "^1.130.8"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@tamagui/babel-plugin": "^1.130.8",
+    "@tamagui/metro-plugin": "^1.130.8",
+    "@tamagui/vite-plugin": "^1.130.8",
     "@types/react": "~19.0.10",
     "typescript": "~5.8.3"
   },
